@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+html ,  body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+#main{
+    background-color: black;
+    width: 100%;
+    overflow: scroll;
+}
+#House{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+nav{
+    width: 100vw;
+    height: 5vh;
+    background-color: black ;
+    color: rgb(247, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight:bold;
+    font-size: 2pc;
+    letter-spacing: 0.1px;
+    line-height: 100px;
+    font-style: normal;
+    padding-top: 20px;
+    /* background-color: aqua; */
+    padding-bottom: 20px;
+}
+::selection{
+    color: none;
+}
+.banner{
+    /* background-color: coral; */
+    opacity: .7;
+    overflow: hidden;
+    margin-top: 9.5vw;
+    font-size:5.5pc;
+    letter-spacing: 1vw;
+    line-height: 25vh;
+    padding: 0.2vh 0.2vw ;
+    height: 75vh;
+}
+.b2H1{
+    position: relative;
+}
+.hoverImg{
+    width: 14vw;
+    visibility: hidden;
+    position: absolute;
+    /* border-radius: 100px; */
+}
+.relationShipStatus{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: yellow; */
+    /* display: flex; */
+    position: relative;
+
+}
+.Pri{
+    width: 15vw;
+    height: 20vh;
+    /* background-color: rgb(154, 255, 255); */
+    background-image: url(pr.jpeg);
+    background-size: cover;
+    /* margin: 20px 20px; */
+    clip-path: circle(40% at 50% 50%);
+}
+.vanshika{
+    width: 15vw;
+    height: 20vh;
+    /* background-color: rgb(154, 255, 255); */
+    background-image: url(main-qimg-90fe84a5b6c52197d8871dfe283b4cba-lq.jpeg);
+    background-size: cover;
+    /* margin: 20px 20px; */
+    clip-path: circle(40% at 50% 50%);
+}
+.PKPKKPCC{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
